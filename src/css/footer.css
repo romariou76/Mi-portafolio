@@ -1,0 +1,29 @@
+.footer {
+    /* background-color: rgb(32, 30, 30); */
+    height: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+.footer-1 {
+    width: auto;
+    height: auto;
+    margin: 90px 90px 0px 90px;
+    color: aliceblue;
+}
+
+.footer-1 h3, a {
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+
+.footer-1 a {
+    color: rgb(149, 156, 155);
+    font-size: 17px;
+}
+
+
