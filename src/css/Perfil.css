@@ -51,12 +51,28 @@
     color: rgb(92, 142, 199);
     font-family: Verdana;
     font-size: 50px;
+    display: block;
+    white-space: nowrap;
+    /* border-right: 4px solid; */
+    width: 19ch;
+    animation: typing 4s;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
 }
 
 .info2{
     color: white;
     font-family: Verdana;
     font-size: 50px;
+    display: block;
+    white-space: nowrap;
+    /* border-right: 4px solid; */
+    width: 19ch;
+    animation: typing 4s;
+    overflow: hidden;
 }
 
 p{
