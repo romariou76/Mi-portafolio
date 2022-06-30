@@ -1,0 +1,72 @@
+/* Services */
+.skills {  
+    /* background-color: rgb(20, 19, 85); */
+    background-color: black;
+    width : 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20%;
+}
+
+@media (max-width: 600px) {
+    .skills {
+        display: grid;
+    }
+    .skill-info2 {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    margin: 0% 5% 0% 5% ;
+    width: 80%;
+    background-color: black;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+.skill {
+    display: row;
+    height: 200px;
+    border-radius: 6%;
+    color: white;
+    background-color: hsl(223deg 14% 20%); 
+    margin: 5px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.skill-info {
+   
+    width: auto;
+    background-color: black;
+}
+
+.skill-info2 {
+    height: 150px;
+    width: auto;
+    margin: 10% 0% 0% 5% ;
+}
+
+.title {
+    color: yellow;
+    font-family: Verdana;
+    font-size: 40px;
+    margin: 0px 0px 20px 0px ;
+}
+
+.info-skill {
+    color: white;
+    width: 400px;
+}
