@@ -1,0 +1,71 @@
+/* ABOUT ME */
+.about {
+    width : 100%;
+    height: 1100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+u {
+    color: yellow;
+}
+
+.caja {
+    width: 1300px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.about2 {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin: 0% 6% 0% 6% ;
+}
+
+.about3 {
+    height: auto;
+    width: 600px;
+    /* background-color: tomato; */
+    margin: 0% 6% 0% 0% ;
+}
+.foto2 {
+    width: 450px;
+    height: 300px;
+}
+
+.about3 h1 {
+    color: white;
+    font-family: Verdana;
+    font-size: 50px;
+}
+
+.boton1 {
+    background-color: orange;
+    border: 2px solid orange; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.boton2 {
+    background-color: black;
+    border: 2px solid orange; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
