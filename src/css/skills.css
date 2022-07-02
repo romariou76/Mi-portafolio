@@ -1,68 +1,115 @@
-*{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.Skills-body{
+    /* ancho y altura automatica */
+    width: 100%;
+    height:auto;
+    /* centrando el contenido */
+    margin: 15% 0% 15% 0%;
 }
 
-.body-skill{
-    background: rgb(51, 24, 70);
+.caja-skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    color: white;
+    /* margin: 20px 0px 20px 0px; */
 }
 
 .body-h1 {
-    text-align: center;
+    text-align: start;
     color: white;
 }
 
 .rayita{
-    justify-content: center;
     display: flex;
-    text-align: center;
+    justify-content: start;
     color: yellow;
 }
 
 .body-h3 {
-    margin: 5px;
+    margin: 20px 0px 0px 0px;
 }
 
-.skills {
-    width: 500px;
-    margin: 60px auto;/* este en medio */
-    color: #fff;
-    padding: 15%;
-    /* background-color: rgb(0, 4, 255); */
+.Skills {
+    height: 400px;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 40px 5px 20px 5px;
+    /* padding: 40px; */
+    /* background-color: tomato; */
+}
+
+.skill-foto{
+    width: 40%;
+    height: 400px;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 20%; */
+}
+
+
+@media screen and (max-width:1400px){
+    .Skills, .skill-foto{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .Skills, .skill-foto{
+        width:60%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .Skills, .skill-foto{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .Skills, .skill-foto{
+        width:90%;
+    }
 }
 
 .bar1, .bar2, .bar3, .bar4{
     background: #131212;
     display: block;
-    height: 20px;
+    height: 10px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .bar1 span{
-    height: 20px;
+    height: 10px;
     float: left;
     background: rgb(255, 187, 0);
     border-radius: 10px;
 }
 
 .bar2 span{
-    height: 20px;
+    height: 10px;
     float: left;
     background: rgb(0, 174, 255);
     border-radius: 10px;
 }
 
 .bar3 span{
-    height: 20px;
+    height: 10px;
     float: left;
     background: rgb(255, 0, 76);
     border-radius: 10px;
 }
 
 .bar4 span{
-    height: 20px;
+    height: 10px;
     float: left;
     background: yellow;
     border-radius: 10px;
