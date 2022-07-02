@@ -1,72 +1,125 @@
-/* Services */
-.skills {  
-    /* background-color: rgb(20, 19, 85); */
-    background-color: black;
-    width : 100%;
-    height: 100%;
-    display: flex;
-    margin-top: 20%;
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-@media (max-width: 600px) {
-    .skills {
-        display: grid;
-    }
-    .skill-info2 {
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-  }
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    margin: 0% 5% 0% 5% ;
-    width: 80%;
-    background-color: black;
-    padding: 20px;
-    /* border: 1px solid black; */
+.body-skill{
+    background: rgb(51, 24, 70);
 }
 
-.skill {
-    display: row;
-    height: 200px;
-    border-radius: 6%;
-    color: white;
-    background-color: hsl(223deg 14% 20%); 
-    margin: 5px;
-    line-height: 25px;
+.body-h1 {
     text-align: center;
-}
-
-.foto {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-
-.skill-info {
-   
-    width: auto;
-    background-color: black;
-}
-
-.skill-info2 {
-    height: 150px;
-    width: auto;
-    margin: 10% 0% 0% 5% ;
-}
-
-.title {
-    color: yellow;
-    font-family: Verdana;
-    font-size: 40px;
-    margin: 0px 0px 20px 0px ;
-}
-
-.info-skill {
     color: white;
-    width: 400px;
+}
+
+.rayita{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: yellow;
+}
+
+.body-h3 {
+    margin: 5px;
+}
+
+.skills {
+    width: 500px;
+    margin: 60px auto;/* este en medio */
+    color: #fff;
+    padding: 15%;
+    /* background-color: rgb(0, 4, 255); */
+}
+
+.bar1, .bar2, .bar3, .bar4{
+    background: #131212;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar1 span{
+    height: 20px;
+    float: left;
+    background: rgb(255, 187, 0);
+    border-radius: 10px;
+}
+
+.bar2 span{
+    height: 20px;
+    float: left;
+    background: rgb(0, 174, 255);
+    border-radius: 10px;
+}
+
+.bar3 span{
+    height: 20px;
+    float: left;
+    background: rgb(255, 0, 76);
+    border-radius: 10px;
+}
+
+.bar4 span{
+    height: 20px;
+    float: left;
+    background: yellow;
+    border-radius: 10px;
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+
+.php{
+    width: 45%;
+    animation: php 3s;
+}
+
+.javascript{
+    width: 60%;
+    animation: javascript 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
 }
