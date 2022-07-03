@@ -15,28 +15,48 @@
 
 .caja {
     /* background-color: blue; */
+        /* background-color: violet; */
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-flow: wrap;
+}
+/* Ajustar el contenido al 100% */
+@media screen and (max-width:500px){
+    .caja{
+        width: 100%;
+    }
 }
 
 .about2 {
     /* width: 500px;
     height: 400px; */
     width: 40%;
-    height: 400px;
-    margin: 20px 5px 20px 5px;
-    box-sizing: border-box;
-
+    height: auto;
+    margin: 60px 70px 20px 5px;
+    box-sizing: border-box; 
 }
 
 .about3 {
-    height: 400px;
+    height: auto;
     width: 40%;
     box-sizing: border-box;
     padding: 40px 0px 20px 0px;
-    /* margin: 0% 6% 0% 0% ; */
+    color: white;
+    font-family: Verdana;
+}
+
+@media screen and (max-width:500px){
+    .about2{
+        margin: 70px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .about3{
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width:1400px){
@@ -64,9 +84,10 @@
 }
 
 .foto2 {
+    
     width: 100%;
     height: 100%;
-    border-radius: 20%;
+    /* border-radius: 100%; */
 }
 
 /* .foto2:hover{
@@ -76,32 +97,61 @@
     transition: 1.5s;
 } */
 
-.about3 h1 {
-    color: white;
-    font-family: Verdana;
+/* Titulo */
+.About-me{
     font-size: 50px;
+}
+/* Nombre */
+.about-nombre{
+    font-size: 20px;
+}
+/* Informacion */
+.about-info{
+    font-size: 14px;
+    margin: 15px 0px 0px 0px;
+}
+
+/* Agregando estilo a la lista desordenada */
+.ul{
+    column-count: 2;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    color: #FFFFFF95;
+    margin-bottom: 15px;
+    font-size: 14px;
+
 }
 
 .boton1 {
+    
+    width: 130px;
     background-color: orange;
-    border: 2px solid orange; /* Green */
+    border: 1px solid orange; /* Green */
+    border-radius: 50px;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
+    margin-right: 5%;
+    line-height: 35px;
 }
 
 .boton2 {
+    width: 145px;
     background-color: black;
-    border: 2px solid orange; /* Green */
+    border: 1px solid white; /* Green */
+    border-radius: 50px;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
+    line-height: 35px;
 }
