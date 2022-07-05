@@ -21,6 +21,10 @@
     /* flex-flow: wrap; */
 }
 
+.form-titulo{
+    text-align: center;
+}
+
 input{
 	background-color: #000000; 
     color: white;
@@ -83,15 +87,6 @@ button{
 	font-size: 16px; 
 	padding-bottom: 30px;
 	color: #ffffff;   
-}
-
-.form-p{
-	font-size: 14px; 
-	color: #ffffff; 
-}
-
-.colocar-mensaje{
-    color: white;
 }
 
 /* ::-webkit-input-placeholder {
