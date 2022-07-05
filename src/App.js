@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Skill from './components/skill';
 import Contact from './components/Contact';
+import Follow from './components/follow';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Follow/>
       <Footer/>
     </div>
     </div>
