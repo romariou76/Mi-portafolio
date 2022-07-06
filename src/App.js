@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Skill from './components/skill';
 import Contact from './components/Contact';
-import Follow from './components/follow';
+// import Follow from './components/follow';
 
 function App() {
   return (
@@ -15,12 +15,12 @@ function App() {
       <div>
       <Navbar/>
       <Perfil/>
-      <Skill/>
+      {/* <Skill/> */}
       <Aboutme/>
       <Skills/>
       <Projects/>
       <Contact/>
-      <Follow/>
+      {/* <Follow/> */}
       <Footer/>
     </div>
     </div>

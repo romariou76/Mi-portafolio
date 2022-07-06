@@ -59,7 +59,7 @@ label{
     float: center; 	
   }
 
-button{
+.form-button{
 	width: 420px;
 	height: 45px; 
 	padding-left: 5px;

@@ -1,40 +1,66 @@
 import React from 'react';
 import '../css/footer.css'
 
+import instagram from '../svg/instagram.png';
+import youtube from '../svg/youtube.png';
+import spotify from '../svg/spotify.png';
+import facebook from '../svg/facebook.png';
+import tiktok from '../svg/tiktok.png';
+import twiter from '../svg/twiter.png';
+import snapchat from '../svg/snapchat.png';
+
 function Footer(props){
     return(
 <div className='footer'>
-    <div className='footer-1'>
-        <h3>TOURS</h3>
-        <a href='#a'>All Events</a>
-        <a href='#a'>Europe</a>
-        <a href='#a'>North America</a>
+  <div className='botones-inicio'>
+    <button className='btn-enlace'>HOME</button>
+    <button className='btn-enlace'>ABOUT</button>
+    <button className='btn-enlace'>PROJECTS</button>
+    <button className='btn-enlace'>CONTACT</button>
+    <button className='btn-enlace'>SKILLS</button>
+  </div>
+
+  <div className='Follow-me'>
+  <p className='Follow-h1'>Follow Me</p>
+  
+
+<div className='Follow-footer'>
+ <div className='Follow-container'>
+        <div className='follow_icons'>
+          <img class="foto_follow" src={instagram} alt="instagram"/>
+        </div>
+        <div className='follow_icons'>
+          <img class="foto_follow" src={youtube} alt="youtube"/>
+        </div>
+        <div className='follow_icons'>
+            <img class="foto_follow" src={spotify} alt="spotify"/>
+        </div>
+        <div className='follow_icons'>
+          <img class="foto_follow" src={facebook} alt="facebook"/>
+        </div>
+        <div className='follow_icons'>
+          <img class="foto_follow" src={tiktok} alt="tiktok"/>
+        </div>
+        <div className='follow_icons'>
+          <img class="foto_follow" src={twiter} alt="twiter"/>
+        </div>
+        <div className='follow_icons'>
+          <img class="foto_follow" src={snapchat} alt="snapchat"/>
+        </div>
+        {/* <div className='follow_icons'>
+          <img class="foto_follow" src={aple} alt="aple"/>
+        </div> */}
+        
     </div>
-    <div className='footer-1'>
-        <h3>MUSIC</h3>
-        <a href='#a'>All Music</a>
-        <a href='#a'>2022</a>
-        <a href='#a'>2021</a>
-        <a href='#a'>2020</a>
-        <a href='#a'>2019</a>
-        <a href='#a'>2018</a>
-    </div>
-    <div className='footer-1'>
-        <h3>SHOP</h3>
-        <a href='#a'>Go to Shop</a>
-        <a href='#a'>Signature collection</a>
-        <a href='#a'>Capsule collection</a>
-        <a href='#a'>Festival flag</a>
-        <a href='#a'>Kids</a>
-         <a href='#a'>Accessories</a>
-    </div>
-    <div className='footer-1'>
-        <h3>CONTACT</h3>
-        <a href='#a'>Contact Us</a>
-        <a href='#a'>STMPD RCRDS</a>
-        <a href='#a'>STMPD STUDIOS</a>
-    </div>
+    <p className='Follow-p'>Copyright © 2022 Mejorando dia a dia / Desarrollado por Romario</p>
+
+    <div className=''>
+      </div>
+  </div>
+
+  </div>
 </div>
+
     )
 }
 

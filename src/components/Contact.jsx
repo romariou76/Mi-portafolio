@@ -21,7 +21,7 @@ function Contact(){
 				        <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
        		            <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>				              
                         
-                        <button classname="form-button" type="submit" id="enviar"><p className='button-p'>Enviar</p></button>
+                        <button className="form-button" type="submit" id="enviar"><p className='button-p'>Enviar</p></button>
                         <input type="hidden" name="_next" value="http://localhost:3000/" ></input>
                         <input type="hidden" name='_captcha' value="false"></input>
                     </form>

@@ -9,8 +9,6 @@ function Aboutme(){
       <img className="foto2" src={garrix2} alt="perfil"/>
     </div>
     <div className="about3">
-      <div className='about4'>
-      </div>
         {/* <h1 className='About-me'>About me</h1>
         <u className='rayita-aboutme'>________________</u> */}
         <br/>
@@ -22,8 +20,8 @@ function Aboutme(){
           Soy un desarrollador Web Frontend que actualmente estudia Ing de Software en SENATI. 
           Siempre he sido una persona positiva, responsable y disciplinada y social. Cuando descubri 
           el diseño Web en SENATI, me di cuenta que es mi pasion.   </p><br/>
-        <ul className='ul'>
-        <ul>
+        <ul className='About-ul'>
+        <ul className='About-ul2'>
           <li>Name:</li>
           <li>Email:</li>
           <li>Phone</li>
@@ -31,7 +29,7 @@ function Aboutme(){
           <li>Nacionalidad</li>
           <li>Direccion</li>
         </ul>
-        <ul>
+        <ul className='About-ul3'>
           <li>Romario:</li>
           <li>roma@gmail.com</li>
           <li>94534634</li>

@@ -26,15 +26,56 @@
     color: yellow;
 }
 
-.body-h3 {
-    margin: 20px 0px 0px 0px;
+/* .body-h3 {
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+} */
+
+.title-skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 5px 0px;
+    font-size: 13px;
 }
 
+.left-p{
+    text-align: left;
+}
+
+.right-html{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.right-css{
+    text-align: right;
+    margin-right: 50%;
+}
+
+.right-js{
+    text-align: right;
+    margin-right: 60%;
+}
+
+.right-python{
+    text-align: right;
+    margin-right: 65%;
+}
+
+.right-react{
+    text-align: right;
+    margin-right: 55%;
+}
+
+.right-node{
+    text-align: right;
+    margin-right: 70%;
+}
 .Skills {
-    height: 400px;
     width: 40%;
+    height: 400px;
     box-sizing: border-box;
-    margin: 40px 5px 20px 5px;
+    margin: 0px 5px 0px 5px;
     /* padding: 40px; */
     /* background-color: tomato; */
 }
@@ -42,9 +83,24 @@
 .skill-foto{
     width: 40%;
     height: 400px;
-    padding: 20px 0px 20px 0px;
+    /* padding: 20px 0px 20px 0px; */
     box-sizing: border-box;
     /* background-color: yellow; */
+
+}
+
+/* Agregando estilo a la lista desordenada */
+.Skill-ul{
+    column-count: 2;
+}
+.Skill-ul2, .Skill-ul3{
+    list-style: square inside;
+}
+
+li{
+    color: #ffffffea;
+    margin-bottom: 15px;
+    font-size: 14px;
 
 }
 
@@ -76,43 +132,56 @@
 @media screen and (max-width:600px){
     .Skills, .skill-foto{
         width:90%;
+    margin: 0px 5px 20px 5px;
     }
 }
 
-.bar1, .bar2, .bar3, .bar4{
-    background: #131212;
+.bar1, .bar2, .bar3, .bar4, .bar5, .bar6{
+    background: #222121;
     display: block;
-    height: 10px;
-    border-radius: 10px;
     overflow: hidden;
 }
 
 .bar1 span{
-    height: 10px;
+    height: 5px;
     float: left;
     background: rgb(255, 187, 0);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .bar2 span{
-    height: 10px;
+    height: 5px;
     float: left;
-    background: rgb(0, 174, 255);
-    border-radius: 10px;
+    background: rgb(6, 31, 255);
+    border-radius: 5px;
 }
 
 .bar3 span{
-    height: 10px;
+    height: 5px;
     float: left;
     background: rgb(255, 0, 76);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .bar4 span{
-    height: 10px;
+    height: 5px;
     float: left;
     background: yellow;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.bar5 span{
+    height: 5px;
+    float: left;
+    background: rgb(0, 225, 255);
+    border-radius: 5px;
+}
+
+.bar6 span{
+    height: 5px;
+    float: left;
+    background: rgb(67, 211, 0);
+    border-radius: 5px;
 }
 
 .html{
@@ -121,18 +190,28 @@
 }
 
 .css{
-    width: 70%;
+    width: 50%;
     animation: css 3s;
 }
 
-.php{
-    width: 45%;
+.python{
+    width: 35%;
     animation: php 3s;
 }
 
 .javascript{
-    width: 60%;
+    width: 40%;
     animation: javascript 3s;
+}
+
+.react{
+    width: 45%;
+    animation: php 3s;
+}
+
+.node{
+    width: 30%;
+    animation: php 3s;
 }
 
 @keyframes html{

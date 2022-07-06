@@ -112,10 +112,10 @@
 }
 
 /* Agregando estilo a la lista desordenada */
-.ul{
+.About-ul{
     column-count: 2;
 }
-ul{
+.About-ul2, .About-ul3{
     list-style: none;
 }
 
