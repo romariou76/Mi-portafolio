@@ -14,11 +14,17 @@
 	padding-bottom: 20px;  
     padding-left: 30px; 
     color: white;
-    background-color: #0c0c0c; 
-
+    /* background-color: #0c0c0c; */
+background-color: rgb(95, 75, 75);
     /* justify-content: space-evenly; */
     /* justify-content: center; */
     /* flex-flow: wrap; */
+}
+/* Añadimos responsive al formulario */
+@media screen and (max-width:600px){
+    .formulario{
+        width:382px;
+    }
 }
 
 .form-titulo{
@@ -39,11 +45,19 @@ input{
     margin-bottom: 20px;
 }
 
+/* Añadimos responsive a los inputs del formulario y el textarea */
+
+@media screen and (max-width:600px){
+    input, .textarea{
+        width: 335px;
+    }
+}
+
 textarea{
     background-color: #050505;
     color: white;
       width: 405px;
-      height: 150px; 
+      height: 80px; 
       border-radius: 5px;  
       /* border-style: solid;  */
       border-width: 1px; 
@@ -69,8 +83,17 @@ label{
     background-color: orange;
     /* border: 1px solid orange; */
 	/* border-style: solid; */
-	border-radius: 10px;	
+	border-radius: 10px;
+    border: 1px solid orange;
+    /* border-color: #97d848; */
     cursor: pointer;
+}
+
+/* AGregando responsive design al boton */
+@media screen and (max-width:600px){
+    .form-button{
+        width: 346px;
+    }
 }
 
 .button-p{

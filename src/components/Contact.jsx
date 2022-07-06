@@ -19,7 +19,7 @@ function Contact(){
 	    		        <input type="email" name="correo" id="email" required="obligatorio" placeholder="Escribe tu Email"/>
 
 				        <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
-       		            <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>				              
+       		            <textarea className="textarea" name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>				              
                         
                         <button className="form-button" type="submit" id="enviar"><p className='button-p'>Enviar</p></button>
                         <input type="hidden" name="_next" value="http://localhost:3000/" ></input>
