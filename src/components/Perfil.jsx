@@ -1,20 +1,15 @@
 import '../css/Perfil.css'
-import perfil from '../images/perfil.png';
+import fondo from '../images/fondo5.jpg';
+
 function Perfil(){
     return(
 
 <div class="principal">
+  <img className="fondo" src={fondo} alt="perfil"/>
     <div class="contenedor">
-      <div class="contenedor2">
-          <img class="foto" src={perfil} alt="perfil"/>
-      </div>
-        <div class="info">
-          <p class="p">Hola, mi nombre es</p>
-          <h1 class="nombre">Romario Quispe Hancco</h1>
-          <h1 class="info2">Front-end Developer</h1>
-          <br/>
-          <p>Desarrollo de sitios y aplicaciones web, así como aplicaciones móviles multiplataforma.</p>    
-        </div>
+      <h1 class="nombre">HI, I'm Romario</h1>
+      <br/>
+      <p>Yo soy un Front-end Developer que desarrollo de sitios y aplicaciones web, así como aplicaciones móviles multiplataforma.</p>    
     </div>
 </div>
 
