@@ -7,12 +7,13 @@ function Navbar(props){
 <div class="body-nav">
 
     <nav>
-      <div className='logo'>Web Bignner</div>
+      <div className='logo'>Web Developer</div>
       <ul>
-        <li><a href="#Home">Home</a></li>
-        <li> <a href="Sobre mi">Sobre mi</a></li>
-        <li><a href="Proyectos">Proyectos</a></li>
-        <li><a href="Contactame">Contactame</a></li>
+        <li><a href="#home">Home</a></li>
+        <li> <a href="#about-me">Sobre mi</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact-me">Contactame</a></li>
       </ul>
     </nav>
 

@@ -2,7 +2,7 @@ import '../css/contact.css'
 
 function Contact(){
     return(
-        <div className="Contact-base">
+        <div className="Contact-base" id='contact-me'>
             <div className="formulario">
                 {/* <div className="form-info">
                     <img className='foto' src='#foto' alt='foto'></img>

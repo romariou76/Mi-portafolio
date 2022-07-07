@@ -1,9 +1,8 @@
-import garrix from '../images/garrix.jpg';
 import '../css/skills.css'
 
 function Skills(){
     return(
-<div className='Skills-body'>
+<div className='Skills-body' id='skills'>
     <div className='caja-skill'>
         <div class="Skills">
             <h1 className='body-h1'>My Skills</h1><u className='rayita'>_______________</u>
