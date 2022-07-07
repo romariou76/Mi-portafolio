@@ -9,7 +9,6 @@ function Navbar(props){
     <nav>
       <div className='logo'>Web Developer</div>
       <ul>
-        <li><a href="#home">Home</a></li>
         <li> <a href="#about-me">Sobre mi</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Proyectos</a></li>

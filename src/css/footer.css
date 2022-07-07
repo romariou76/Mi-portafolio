@@ -18,10 +18,16 @@
     width: 100px;
     height: 30px;
     color: rgba(255, 255, 255, 0.863);
+    text-decoration: none;
     background-color: rgb(8, 6, 6);
     font-weight: bold;
+    font-size: 15px;
     cursor: pointer;
     margin-left: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 5px;
     border: 1px solid rgb(8, 6, 6);
 }

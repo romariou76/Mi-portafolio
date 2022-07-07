@@ -21,6 +21,7 @@
 }
 
 .rayita{
+    margin-top: -35px;
     display: flex;
     justify-content: start;
     color: yellow;
@@ -36,6 +37,13 @@
     justify-content: space-between;
     margin: 20px 0px 5px 0px;
     font-size: 13px;
+}
+
+/* Disminuir el margen de los skills */
+@media screen and (max-width:500px){
+    .title-skills{
+    margin: 0px 0px 0px 0px;
+    }
 }
 
 .left-p{
@@ -83,34 +91,48 @@
 .skill-foto{
     width: 40%;
     height: 400px;
-    /* padding: 20px 0px 20px 0px; */
     box-sizing: border-box;
     /* background-color: yellow; */
 
 }
 
+@media screen and (max-width:500px){
+    .skill-foto{
+    margin: 0px 0px 0px 0px;
+    }   
+}
+
 /* Agregando estilo a la lista desordenada */
 .Skill-ul{
+    width: 70%;
+    height: auto;
     column-count: 2;
+    /* background-color: yellow; */
+    margin-left: -75px;
 }
+
+/* Disminuendo el tamaño de los social skill */
+@media screen and (max-width:500px){
+    .Skill-ul{
+        width: 100%;
+        margin-top: -30px;
+        margin-left: -75px;
+    }   
+}
+
 .Skill-ul2, .Skill-ul3{
     list-style: square inside;
 }
 
 li{
-    color: #ffffffea;
+    color: #ffffffce;
     margin-bottom: 15px;
     font-size: 14px;
 
 }
 
-.foto {
-    width: 100%;
-    height: 100%;
-    /* border-radius: 20%; */
-}
 
-
+/* Responsive de la pagina en general */
 @media screen and (max-width:1400px){
     .Skills, .skill-foto{
         width:40%;
@@ -133,6 +155,12 @@ li{
     .Skills, .skill-foto{
         width:90%;
     margin: 0px 5px 20px 5px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .skill-foto{
+    margin-top: 3%;
     }
 }
 

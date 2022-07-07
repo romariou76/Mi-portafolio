@@ -13,11 +13,10 @@ function Footer(props){
     return(
 <div className='footer'>
   <div className='botones-inicio'>
-    <button className='btn-enlace'>HOME</button>
-    <button className='btn-enlace'>ABOUT</button>
-    <button className='btn-enlace'>PROJECTS</button>
-    <button className='btn-enlace'>CONTACT</button>
-    <button className='btn-enlace'>SKILLS</button>
+    <a href="#about-me" className='btn-enlace'>ABOUT</a>
+    <a href="#projects" className='btn-enlace'>PROJECTS</a>
+    <a href="#contact-me" className='btn-enlace'>CONTACT</a>
+    <a href="#skills" className='btn-enlace'>SKILLS</a>
   </div>
 
   <div className='Follow-me'>
