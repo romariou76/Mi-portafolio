@@ -1,14 +1,24 @@
 import React from 'react';
 import '../css/Navbar.css'
+import Perfil from './Perfil';
 
 function Navbar(props){
     return(
-        
-  <div class="topnav">
-  <a href="#news">Home</a>
-  <a href="#contact">Sobre mi</a>
-  <a href="#about">Proyectos</a>
-  <a href="#about">Contactame</a>
+<div class="body-nav">
+
+    <nav>
+      <div className='logo'>Web Bignner</div>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li> <a href="Sobre mi">Sobre mi</a></li>
+        <li><a href="Proyectos">Proyectos</a></li>
+        <li><a href="Contactame">Contactame</a></li>
+      </ul>
+    </nav>
+
+      <Perfil/>
+
+  <section></section>
 </div>
     )
 }

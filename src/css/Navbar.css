@@ -1,21 +1,45 @@
+nav{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  /* background-color: rgba(39, 36, 36, 0.6); */
+  /* border-bottom: 1px solid #fff; */
+}
 
-/* NavBar */
-.topnav {
-    background-color: rgb(21, 21, 78);
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 50px 70px 0px 0px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    font-size: 17px;
-  }
+nav .logo{
+  padding: 21px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a{
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+  background: url(../images/fondo5.jpg);
+  background-size: cover;
+  background-position: center
+}
