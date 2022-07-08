@@ -1,3 +1,8 @@
+html{
+  /* No funciona con safari ni internet explorer  */
+  scroll-behavior: smooth;
+}
+
 nav{
   position: absolute;
   top: 0;
@@ -40,6 +45,7 @@ section{
   width: 100%;
   height: 100vh;
   background: url(../images/fondo5.jpg);
-  background-size: cover;
-  background-position: center
+  background-size: cover; /*cover; redimensiona la imagen para aseugrar que ocupa el máximo de pantalla posible. */
+  background-position: center;
+  background-attachment: fixed; /*Mantener fijo el fondo*/
 }

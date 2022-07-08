@@ -1,8 +1,12 @@
 import '../css/contact.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function Contact(){
     return(
-        <div className="Contact-base" id='contact-me'>
+        <div className="Contact-base" id='contact-me' data-aos="flip-down" >
             <div className="formulario">
                 {/* <div className="form-info">
                     <img className='foto' src='#foto' alt='foto'></img>

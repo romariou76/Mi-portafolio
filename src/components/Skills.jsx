@@ -1,10 +1,16 @@
 import '../css/skills.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 function Skills(){
     return(
 <div className='Skills-body' id='skills'>
     <div className='caja-skill'>
-        <div class="Skills">
+        <div class="Skills" data-aos="fade-up"
+                            data-aos-duration="3000">
             <h1 className='body-h1'>My Skills</h1><u className='rayita'>_______________</u>
                 <p>Loream isam Mauris scelrisque ut ipsum id vulputate.
                     Nulla osaoret, liguia vel congue ultricies,nith ipsum.
@@ -45,7 +51,10 @@ function Skills(){
                 </div>
                     <span className='bar6'><span className='node'></span></span>
         </div>
-        <div className='skill-foto'>
+        <div className='skill-foto'
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        >
             <h1 className='body-h1'>Social Skills</h1><u className='rayita'>_______________</u>
             <p>Loream isam Mauris scelrisque ut ipsum id vulputate.
                 Nulla osaoret, liguia vel congue ultricies,nith ipsum.

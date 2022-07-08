@@ -1,14 +1,21 @@
 import '../css/aboutme.css'
 import garrix2 from '../images/garrix2.jpg';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 function Aboutme(){
     return(
 <div className="about" id='about-me'>
+
+
   <div className="caja">
-    <div className="about2">
-      <img className="foto2" src={garrix2} alt="perfil"/>
+    <div className="about2" data-aos="fade-right">
+      <img className="foto2"   src={garrix2} alt="perfil"/>
     </div>
-    <div className="about3">
+    <div className="about3" data-aos="fade-up-left">
         {/* <h1 className='About-me'>About me</h1>
         <u className='rayita-aboutme'>________________</u> */}
         <br/>
@@ -44,6 +51,7 @@ function Aboutme(){
         <a href="#a" className="boton2">Download CV</a>
     </div>
   </div>
+
 </div>
     )
 }
