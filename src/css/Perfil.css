@@ -36,9 +36,9 @@
     overflow: hidden;
 }
 
-@keyframes typing {
+/* @keyframes typing {
     from {width: 0;}
-}
+} */
 
 .info2{
     color: white;
