@@ -32,8 +32,15 @@
     border: 1px solid rgb(8, 6, 6);
 }
 
-/* AREAA DE FOLLOW */
+@media screen and (max-width:500px){
+    .btn-enlace{
+        width: 80px;
+    }
+}
 
+
+
+/* AREAA DE FOLLOW */
 .Follow-me{
     width: 100%;
     height: auto;

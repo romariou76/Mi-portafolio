@@ -12,12 +12,24 @@ import whatsapp from '../svg/whatsapp.png';
 function Footer(props){
     return(
 <div className='footer'>
-  <div className='botones-inicio'>
-    <a href="#about-me" className='btn-enlace'>ABOUT</a>
-    <a href="#projects" className='btn-enlace'>PROJECTS</a>
-    <a href="#contact-me" className='btn-enlace'>CONTACT</a>
-    <a href="#skills" className='btn-enlace'>SKILLS</a>
+  <div className='botones-inicio' >
+{/* Agregando animaciones a los botones */}
+    <div data-aos="fade-right">
+      <a href="#about-me" className='btn-enlace'>ABOUT</a>
+    </div>
+    <div data-aos="fade-right">
+      <a href="#projects" className='btn-enlace'>PROJECTS</a>
+    </div>
+
+    <div data-aos="fade-left">
+      <a href="#contact-me" className='btn-enlace'>CONTACT</a>
+    </div>
+    <div data-aos="fade-left">
+      <a href="#skills" className='btn-enlace'>SKILLS</a>
+    </div>
+
   </div>
+  
 
   <div className='Follow-me'>
   <p className='Follow-h1'>Follow Me</p>

@@ -16,13 +16,8 @@ function Aboutme(){
       <img className="foto2"   src={garrix2} alt="perfil"/>
     </div>
     <div className="about3" data-aos="fade-up-left">
-        {/* <h1 className='About-me'>About me</h1>
-        <u className='rayita-aboutme'>________________</u> */}
-        <br/>
-        <br/>
-        <p className='about-nombre'>Hello I am Romario Quispe Hancco, I am a freelance web designer
-          or developer from Arequipa, Perú.
-        </p>
+        <h1 className='About-me'>About me</h1>
+        <u className='rayita-aboutme'>________________</u>
         <p className='about-info'>
           Soy un desarrollador Web Frontend que actualmente estudia Ing de Software en SENATI. 
           Siempre he sido una persona positiva, responsable y disciplinada y social. Cuando descubri 

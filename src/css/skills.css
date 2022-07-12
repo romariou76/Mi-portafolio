@@ -1,10 +1,19 @@
 .Skills-body{
     /* ancho y altura automatica */
     width: 100%;
-    height:auto;
+    height:700px;
+    /* background-color: yellow; */
     /* centrando el contenido */
     margin: 15% 0% 15% 0%;
 }
+
+/* Disminuir el margen de los skills */
+@media screen and (max-width:500px){
+    .Skills-body{
+    height: auto;
+    }
+}
+
 
 .caja-skill{
     display: flex;
@@ -12,7 +21,7 @@
     justify-content: space-evenly;
     flex-flow: wrap;
     color: white;
-    /* margin: 20px 0px 20px 0px; */
+    padding-top: 30px;
 }
 
 .body-h1 {
