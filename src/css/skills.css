@@ -30,7 +30,8 @@
 }
 
 .rayita{
-    margin-top: -35px;
+    margin-top: -16px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: start;
     color: yellow;
@@ -51,12 +52,13 @@
 /* Disminuir el margen de los skills */
 @media screen and (max-width:500px){
     .title-skills{
-    margin: 0px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     }
 }
 
 .left-p{
     text-align: left;
+    margin-bottom: 3px;
 }
 
 .right-html{
@@ -71,12 +73,12 @@
 
 .right-js{
     text-align: right;
-    margin-right: 60%;
+    margin-right: 65%;
 }
 
 .right-python{
     text-align: right;
-    margin-right: 65%;
+    margin-right: 60%;
 }
 
 .right-react{
@@ -117,15 +119,16 @@
     height: auto;
     column-count: 2;
     /* background-color: yellow; */
-    margin-left: -75px;
+    margin-top: -10px;
+    list-style: square inside;
 }
 
 /* Disminuendo el tamaño de los social skill */
 @media screen and (max-width:500px){
     .Skill-ul{
         width: 100%;
-        margin-top: -30px;
-        margin-left: -75px;
+        margin-top: -20px;
+        margin-left: 0px;
     }   
 }
 
@@ -232,12 +235,12 @@ li{
 }
 
 .python{
-    width: 35%;
+    width: 40%;
     animation: php 3s;
 }
 
 .javascript{
-    width: 40%;
+    width: 35%;
     animation: javascript 3s;
 }
 

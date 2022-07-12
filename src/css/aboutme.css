@@ -24,16 +24,22 @@
 }
 
 .rayita-aboutme{
-    margin-top: -30px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: start;
+    color: yellow;
+}
+
+.rayita-aboutme{
+    margin-top: -10px;
     display: flex;
     justify-content: start;
     color: yellow;
 }
 
 .caja {
-    /* background-color: blue; */
         /* background-color: violet; */
-        width: 80%;
+        width: 87%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -49,17 +55,18 @@
 .about2 {
     width: 40%;
     height: auto;
-    margin: 60px 70px 60px 5px;
-    box-sizing: border-box; 
+    margin: 60px 30px 60px 5px;
+    box-sizing: border-box;
+    /* background-color: blueviolet; */
 }
 
 .about3 {
-    height: auto;
-    width: 40%;
+    height: 400px;
+    margin: 0px 0px 0px -60px;
     box-sizing: border-box;
     color: white;
     font-family: Verdana;
-    /* background-color: yellow; */
+    /* background-color: orangered; */
 }
 /* Ajustar el margen en la seccion about2 en mobiles */
 @media screen and (max-width:500px){
@@ -120,6 +127,7 @@
 }
 /* Informacion */
 .about-info{
+    /* background-color: yellow; */
     font-size: 14px;
     margin: 10px 0px -10px 0px;
 }
@@ -129,7 +137,8 @@
     width: 100%;
     height: auto;
     column-count: 2;
-    margin-left: -80px;
+    margin-left: 0px;
+    margin-top: 10px;
     margin-bottom: -10px;
     /* background-color: yellow; */
 }

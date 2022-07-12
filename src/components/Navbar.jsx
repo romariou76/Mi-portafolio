@@ -1,25 +1,25 @@
 import React from 'react';
 import '../css/Navbar.css'
-import Perfil from './Perfil';
+
 
 function Navbar(props){
     return(
-<div class="body-nav">
-
-    <nav>
-      <div className='logo'>Web Developer</div>
-      <ul>
-        <li> <a href="#about-me">Sobre mi</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#contact-me">Contactame</a></li>
-      </ul>
-    </nav>
-
-      <Perfil/>
-
-  <section></section>
-</div>
+<body>
+  <nav>
+    <input type="checkbox" id='check'></input>
+    <label for="check" >
+      <i className="fas fa-bars" id="btn"></i>
+      <i className="fas fa-times" id="cancel"></i>
+      </label>
+    <ul className='ul-nav'>
+      <li className='li-nav'><a href='#e'>Home</a></li>
+      <li className='li-nav'><a href='#e'>About</a></li>
+      <li className='li-nav'><a href='#e'>Services</a></li>
+      <li className='li-nav'><a href='#e'>Contact</a></li>
+      <li className='li-nav'><a href='#e'>Feedback</a></li>
+    </ul>
+  </nav>
+</body>
     )
 }
 

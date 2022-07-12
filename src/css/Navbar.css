@@ -1,51 +1,111 @@
-html{
-  /* No funciona con safari ni internet explorer  */
-  scroll-behavior: smooth;
+body{
+  width: 100%;
+  height: 720px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 nav{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100px;
-  padding: 10px 90px;
-  box-sizing: border-box;
-  /* background-color: rgba(39, 36, 36, 0.6); */
-  /* border-bottom: 1px solid #fff; */
+  height: 60px;
+  background: #34495e;
 }
 
-nav .logo{
-  padding: 21px 20px;
-  height: 80px;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-nav ul{
-  list-style: none;
+nav .ul-nav{
   float: right;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  margin-right: 25px;
 }
 
-nav ul li a{
-  line-height: 80px;
-  color: #fff;
-  padding: 12px 30px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
+nav .ul-nav .li-nav{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 15px;
 }
 
-section{
+nav .ul-nav .li-nav a{
+  position: relative;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  text-transform: uppercase
+  ;
+}
+
+nav .ul-nav .li-nav a:before{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 3px;
   width: 100%;
-  height: 100vh;
-  background: url(../images/fondo5.jpg);
-  background-size: cover; /*cover; redimensiona la imagen para aseugrar que ocupa el máximo de pantalla posible. */
-  background-position: center;
-  background-attachment: fixed; /*Mantener fijo el fondo*/
+  background: white;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear ;
+}
+
+nav .ul-nav .li-nav a:hover:before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+label #btn,
+label #cancel{
+  color: white;
+  font-size: 30px;
+  float: right;
+  line-height: 60px;
+  /* Para ajustar el margen del boton */
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+@media (max-width: 944px) {
+  nav .ul-nav .li-nav a{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 860px) {
+  label #btn{
+    display: block;
+  }
+  .ul-nav{
+    position: fixed;
+    width: 412px;
+    height: 100vh;
+    background: #34495e;
+    top: 60px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    padding-top: 100px;
+
+  }
+  nav .ul-nav .li-nav{
+    display: block;
+    margin: 75px 0;
+    line-height: 0px;
+  }
+  nav .ul-nav .li-nav a{
+    font-size: 20px;
+  }
+  #check:checked ~ .ul-nav{
+    left: 0;
+  }
+  #check:checked ~ label #btn{
+    display: none;
+  }
+  #check:checked ~ label #cancel{
+    display: block;
+  }
 }
