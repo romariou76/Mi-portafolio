@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Perfil from './components/Perfil';
+// import Perfil from './components/Perfil';
 import Aboutme from './components/Aboutme';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
        <Navbar/>
       <div>
-        <Perfil/>
+        {/* <Perfil/> */}
       {/* <Skill/> */}
       <Aboutme/>
       <Skills/>

@@ -9,8 +9,6 @@ AOS.init();
 function Aboutme(){
     return(
 <div className="about" id='about-me'>
-
-
   <div className="caja">
     <div className="about2">
       <img className="foto2"   src={garrix2} alt="perfil"/>

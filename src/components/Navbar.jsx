@@ -1,6 +1,7 @@
 import '../css/Navbar.css'
 import { useRef } from "react";
 import {FaBars, FaTimes } from "react-icons/fa"
+import Perfil from './Perfil';
 
 function Navbar(props){
 
@@ -10,9 +11,11 @@ function Navbar(props){
     navRef.current.classList.toggle("responsive_nav")
   }
 
-    return(
-<header>
-  <h1>RomaCode</h1>
+return(
+<div className='NavBar'>
+  <div className='filtro'>
+    <header>
+      <h1>RomaCode</h1>
       <nav ref={navRef}>
         <a href='#home'>Home</a>
         <a href='#about-me'>About</a>
@@ -26,7 +29,11 @@ function Navbar(props){
         <button className='nav-btn' onClick={showNavbar}>
           <FaBars/>
         </button>
-</header>
+    </header>
+          <Perfil/>
+  </div>
+</div>
+
     )
 }
 
