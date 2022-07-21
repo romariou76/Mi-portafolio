@@ -6,7 +6,7 @@ AOS.init();
 
 function Contact(){
     return(
-        <div className="Contact-base" id='contact-me' data-aos="flip-down" >
+        <div className="Contact-base" id='contact-me' data-aos="zoom-in" >
             <div className="formulario">
                 {/* <div className="form-info">
                     <img className='foto' src='#foto' alt='foto'></img>

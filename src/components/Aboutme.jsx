@@ -12,10 +12,10 @@ function Aboutme(){
 
 
   <div className="caja">
-    <div className="about2" data-aos="fade-right">
+    <div className="about2">
       <img className="foto2"   src={garrix2} alt="perfil"/>
     </div>
-    <div className="about3" data-aos="fade-up-left">
+    <div className="about3">
         <h1 className='About-me'>About me</h1>
         <u className='rayita-aboutme'>________________</u>
         <p className='about-info'>
