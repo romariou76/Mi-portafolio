@@ -1,13 +1,14 @@
 /* ABOUT ME */
 .about {
     width: 100%;
-    height: 650px;
-    /* background-color: blue; */
+    height: 110vh;
+    background-color: rgb(0, 4, 14);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
+    z-index: 1 /* Mandamos atras el about en la capa 3 */
 }
 
 /* Aumentar la altura de la seccion about en mobil */
@@ -26,19 +27,17 @@
 .rayita-aboutme{
     margin-top: 6px;
     display: flex;
-    justify-content: start;
     color: yellow;
 }
 
 .rayita-aboutme{
     margin-top: -10px;
     display: flex;
-    justify-content: start;
     color: yellow;
 }
 
 .caja {
-        /* background-color: violet; */
+        /* background-color: rgb(14, 14, 15); */
         width: 87%;
         display: flex;
         align-items: center;

@@ -11,14 +11,15 @@
   height: 100vh;
   background-size: cover; /*cover; redimensiona la imagen para aseugrar que ocupa el máximo de pantalla posible. */
   background-position: center;
-  background-attachment: fixed; /*Mantener fijo el fondo*/
+  /* background-attachment: fixed; Mantener fijo el fondo */
   position: relative;
+  z-index: 3;  /* Mandamos encima de todo la Navbar horizontal en la capa 2 */
 }
 
 *{
   margin: 0;
   padding: 0;
-  list-style: none;
+  /* list-style: none; */
   text-decoration: none;
 }
 
@@ -26,7 +27,7 @@
   --mainColor: #29335c;
   --mainColorLight: #5767aa;
   --secondaryColor: #082839;
-  --textColor: #eee;
+  --textColor: rgba(238, 238, 238, 0.938);
 }
 
 header{
@@ -36,13 +37,15 @@ header{
   height: 80px;
   padding: 0 2rem;
   background-color: rgba(0, 0, 0, 0);
-  color: var(--textColor);
+  color: #fff;
 }
 
 nav a{
   margin: 0 2rem;
   color: var(--textColor);
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
 nav a:hover{

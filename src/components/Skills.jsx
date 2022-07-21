@@ -7,14 +7,17 @@ AOS.init();
 
 function Skills(){
     return(
-<div className='Skills-body' id='skills'>
-    <div className='caja-skill'>
-        <div class="Skills" data-aos="fade-up"
+<div className='main-skill' id='skills'>
+    <h1 className='title-skill' data-aos="fade-up" data-aos-duration="3000">My Skills</h1>
+    <p className='rayita' data-aos="fade-up" data-aos-duration="3000">_______________</p>
+    <div className='Skills-body' data-aos="fade">
+        <div className='caja-skill'>
+            <div class="Skills" data-aos="fade-up"
                             data-aos-duration="3000">
-            <h1 className='body-h1'>My Skills</h1><u className='rayita'>_______________</u>
-                <p>Loream isam Mauris scelrisque ut ipsum id vulputate.
+                <h1 className='body-h1'>Coding Skills</h1><u className='rayita'>________________________</u>
+                    <p className='info-skill1'>Loream isam Mauris scelrisque ut ipsum id vulputate.
                     Nulla osaoret, liguia vel congue ultricies,nith ipsum.
-                </p>
+                    </p>
                 <div className='title-skills'>
                     <p className='left-p'>Html</p>
                     <p className='right-html'>90%</p>
@@ -55,8 +58,8 @@ function Skills(){
         data-aos="fade-up"
         data-aos-duration="3000"
         >
-            <h1 className='body-h1'>Social Skills</h1><u className='rayita'>_______________</u>
-            <p>Loream isam Mauris scelrisque ut ipsum id vulputate.
+            <h1 className='body-h1'>Social Skills</h1><u className='rayita'>______________________</u>
+            <p className='info-skill1'>Loream isam Mauris scelrisque ut ipsum id vulputate.
                 Nulla osaoret, liguia vel congue ultricies,nith ipsum.
                 </p>
                 <br></br>
@@ -67,18 +70,17 @@ function Skills(){
                         <li>Responsable</li>
                         <li>Puntual</li>
                         <li>Disciplinado</li>
-                        <li>Nacionalidad</li>
-                        <li>Direccion</li>
+                        <li>Comprometido</li>
                     </ul>
                     <ul className='Skill-ul3'>
-                        <li>Romario</li>
-                        <li>roma@gmail.com</li>
-                        <li>94534634</li>
-                        <li>20 de abril</li>
-                        <li>Peruano</li>
-                        <li>Arequipa</li>
+                        <li>Empatico</li>
+                        <li>Asertivo</li>
+                        <li>Credibilidad</li>
+                        <li>Respetuoso</li>
+                        <li>Mente abierta</li>
                     </ul>
                 </ul>   
+            </div>
         </div>
     </div>
 </div>
