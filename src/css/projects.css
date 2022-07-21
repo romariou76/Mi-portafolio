@@ -26,7 +26,6 @@
 .proyectos {
     width: 100%;
     height: 100%;
-    /* background-color: black; */
     display: flex;
     align-items: center;
     color: white;
@@ -41,7 +40,7 @@
     padding:30px;
 }
 
-.proyecto {
+/* .proyecto {
     height: 250px;
     display: flex;
     justify-content: center;
@@ -50,9 +49,8 @@
     margin-right: 17px;
     margin-left: 17px;
     margin-bottom: 17px;
-
     background-color: rgb(6, 11, 87);
-}
+} */
 
 @media screen and (max-width:420px){
     .proyectos{
@@ -64,17 +62,17 @@
 }
 
 /* Samsung Galaxy a51-71 responsive */
-@media screen and (max-width:420px){
+/* @media screen and (max-width:420px){
     .proyecto{
         width: 100%;
         margin: 0px 0px 10px 0px;
     }
-}
+} */
 
 /* Iphone 12 pro responsive */
-@media screen and (max-width:390px){
+/* @media screen and (max-width:390px){
     .proyecto{
         width: 95%;
         margin-left: -15px;
     }
-}
+} */
