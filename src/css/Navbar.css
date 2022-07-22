@@ -5,7 +5,8 @@
   height: 100vh;
   background-color: #01020288;
   position: absolute;
-}
+  /* Sombreado entre contenedores */
+  background: linear-gradient(rgba(148, 255, 26, 0) 95%, rgb(0, 4, 14));}
 
 .NavBar{
   background-image: url(../images/fondo4.jpg);

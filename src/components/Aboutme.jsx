@@ -8,12 +8,12 @@ AOS.init();
 
 function Aboutme(){
     return(
-<div className="about" id='about-me' data-aos="fade-up" data-aos-duration="3000">
+<div className="about" id='about-me'>
   <div className="caja">
-    <div className="about2">
+    <div className="about2" data-aos="fade-down" data-aos-duration="1000">
       <img className="foto2"   src={garrix2} alt="perfil"/>
     </div>
-    <div className="about3" data-aos="fade-down" data-aos-duration="3000">
+    <div className="about3" data-aos="fade-up" data-aos-duration="2000">
         <h1 className='About-me'>About me</h1>
         <u className='rayita-aboutme'>________________</u>
         <p className='about-info'>

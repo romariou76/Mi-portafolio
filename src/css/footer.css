@@ -16,7 +16,7 @@
 }
 
 .btn-enlace{
-    width: 100px;
+    width: auto;
     height: 30px;
     color: rgba(255, 255, 255, 0.863);
     text-decoration: none;
@@ -25,24 +25,58 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 5px;
+    margin-left: 1.5rem;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 1.5rem;
     /* border: 1px solid rgb(8, 6, 6); */
     border: 1px solid rgb(0, 4, 18);
+
+    position: relative;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
 }
+
+/* Agregando estilo hover */
+.btns-footer a:focus,
+
+.btns-footer a:hover {
+    color: #fff;
+  }
+  
+  
+.btns-footer a:focus:after,
+  
+.btns-footer a:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  
+.btns-footer a:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
 
 @media screen and (max-width:500px){
     .btn-enlace{
-        width: 80px;
+        width: auto;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
     }
 }
-
-
-
 /* AREAA DE FOLLOW */
 .Follow-me{
     width: 100%;

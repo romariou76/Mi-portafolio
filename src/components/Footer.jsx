@@ -14,17 +14,17 @@ function Footer(props){
 <div className='footer'>
   <div className='botones-inicio' >
 {/* Agregando animaciones a los botones */}
-    <div data-aos="fade-left">
+    <div className="btns-footer" data-aos="fade-left">
       <a href="#about-me" className='btn-enlace'>ABOUT</a>
     </div>
-    <div data-aos="fade-left">
+    <div className="btns-footer" data-aos="fade-left">
       <a href="#projects" className='btn-enlace'>PROJECTS</a>
     </div>
 
-    <div data-aos="fade-right">
+    <div className="btns-footer" data-aos="fade-right">
       <a href="#contact-me" className='btn-enlace'>CONTACT</a>
     </div>
-    <div data-aos="fade-right">
+    <div className="btns-footer" data-aos="fade-right">
       <a href="#skills" className='btn-enlace'>SKILLS</a>
     </div>
 
