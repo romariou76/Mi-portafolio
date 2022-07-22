@@ -15,7 +15,17 @@ return(
 <div className='NavBar'>
   <div className='filtro'>
     <header>
-      <h1>RomaCode</h1>
+      
+      <div class="spinner">
+        <span>R</span>
+        <span>O</span>
+        <span>M</span>
+        <span>C</span>
+        <span>O</span>
+        <span>D</span>
+        <span>E</span>
+      </div>
+
       <nav ref={navRef}>
         <a href='#home'>Home</a>
         <a href='#about-me'>About</a>
