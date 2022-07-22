@@ -13,23 +13,14 @@
   height: 100vh;
   background-size: cover; /*cover; redimensiona la imagen para aseugrar que ocupa el máximo de pantalla posible. */
   background-position: center;
-  /* background-attachment: fixed; Mantener fijo el fondo */
-  position: relative;
+  position: relative;/* background-attachment: fixed; Mantener fijo el fondo */
   z-index: 5;  /* Mandamos encima de todo la Navbar horizontal en la capa 2 */
 }
 
 *{
   margin: 0;
   padding: 0;
-  /* list-style: none; */
   text-decoration: none;
-}
-
-:root{
-  --mainColor: #29335c;
-  --mainColorLight: #5767aa;
-  --secondaryColor: #082839;
-  --textColor: rgba(238, 238, 238, 0.938);
 }
 
 header{
@@ -44,14 +35,39 @@ header{
 
 nav a{
   margin: 0 2rem;
-  color: var(--textColor);
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(255, 255, 255, 0.911);
   font-weight: bolder;
+  font-family: inherit;
+  cursor: pointer;
+  position: relative;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
 }
 
-nav a:hover{
-  color: var(--secondaryColor);
+nav a:focus,
+nav a:hover {
+  color: #fff;
+}
+
+nav a:focus:after,
+nav a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+nav a:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
 
 header .nav-btn{
@@ -60,7 +76,7 @@ header .nav-btn{
   background: transparent;
   border: none;
   outline: none;
-  color: var(--textColor);
+  color: rgba(238, 238, 238, 0.938);
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
