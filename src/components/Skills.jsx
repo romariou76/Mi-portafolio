@@ -8,6 +8,8 @@ AOS.init();
 function Skills(){
     return(
 <div className='main-skill' id='skills'>
+    <div className='filtro-skills'>
+
     <h1 className='title-skill' data-aos="fade-up" data-aos-duration="3000">My Skills</h1>
     <p className='rayita' data-aos="fade-up" data-aos-duration="3000">_______________</p>
     <div className='Skills-body' data-aos="fade">
@@ -83,6 +85,8 @@ function Skills(){
             </div>
         </div>
     </div>
+    </div>
+
 </div>
     )
 }
