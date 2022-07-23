@@ -20,7 +20,7 @@ function Project(props){
                         &nbsp;Website
                     </a>
                   
-                    <a href="#df" class="btn-capa">
+                    <a href={props.url} class="btn-capa">
                          <AiFillGithub style={{color: 'white', fontSize: '15px', paddingTop: '0px'}}/>
                          &nbsp;Repository
                     </a>

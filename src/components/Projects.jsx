@@ -21,6 +21,7 @@ function Projects(props){
                 nombre='PeepoApp'
                 info='Sitio Web para la venta de productos de segundo uso'
                 imagen='peepoapp'
+                url='https://github.com/w4xccino/peepo-app.git'
                 />
                 
                 <Project

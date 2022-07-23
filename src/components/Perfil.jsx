@@ -10,7 +10,7 @@ function Perfil(){
             <h1 class="nombre">I'm</h1><h1 className='nombre2'>Romario</h1>
           </div>
             <p>
-              Este es el sitio web de mi portafolio, desarrollado en React y Css al 99.9% puro.
+              Este es el sitio web de mi portafolio, desarrollado con React y CSS al 99.9% puro.
             </p>
         </div>
   </div>

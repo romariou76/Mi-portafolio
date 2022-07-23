@@ -6,6 +6,8 @@
   /* background-color: #01020288; */
   /* Sombreado entre contenedores */
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,0,0,0) 10%, rgba(0, 0, 0, 0) 100%);
+  position: relative;
+  z-index: 5;  /* Mandamos encima de todo la Navbar horizontal en la capa 2 */
 }
 
 .NavBar{
