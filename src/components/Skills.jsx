@@ -17,12 +17,13 @@ function Skills(){
             <div class="Skills" data-aos="fade-up"
                             data-aos-duration="3000">
                 <h1 className='body-h1'>Coding Skills</h1><u className='rayita'>________________________</u>
-                    <p className='info-skill1'>Loream isam Mauris scelrisque ut ipsum id vulputate.
-                    Nulla osaoret, liguia vel congue ultricies,nith ipsum.
+                    <p className='info-skill1'>Actualmente tengo estos porcentajes de conocimiento de cada uno de estos lenguajes de programación
+, todos estos los aprendo mayormente en internet, pues soy un joven muy autodidacta 8).
+
                     </p>
                 <div className='title-skills'>
                     <p className='left-p'>Html</p>
-                    <p className='right-html'>90%</p>
+                    <p className='right-html'>70%</p>
                 </div>
                     <span className='bar1'><span className='html'></span></span>
                 
@@ -40,19 +41,19 @@ function Skills(){
                 
                 <div className='title-skills'>
                     <p className='left-p'>Python</p>
-                    <p className='right-python'>40%</p>
+                    <p className='right-python'>30%</p>
                 </div>
                     <span className='bar3'><span className='python'></span></span>
                     
                 <div className='title-skills'>
                     <p className='left-p'>React</p>
-                    <p className='right-react'>45%</p>
+                    <p className='right-react'>25%</p>
                 </div>
                     <span className='bar5'><span className='react'></span></span>
                 
                 <div className='title-skills'>
                     <p className='left-p'>Node JS</p>
-                    <p className='right-node'>30%</p>
+                    <p className='right-node'>25%</p>
                 </div>
                     <span className='bar6'><span className='node'></span></span>
         </div>
@@ -61,8 +62,8 @@ function Skills(){
         data-aos-duration="3000"
         >
             <h1 className='body-h1'>Social Skills</h1><u className='rayita'>______________________</u>
-            <p className='info-skill1'>Loream isam Mauris scelrisque ut ipsum id vulputate.
-                Nulla osaoret, liguia vel congue ultricies,nith ipsum.
+            <p className='info-skill1'>Siempre quise que los demás conozcan como soy personalmente en cualquier ámbito de trabajo, 
+            por ello he listado los valores, actitudes y habilidades sociales las cuales considero que tengo.
                 </p>
                 <br></br>
                 <br></br>

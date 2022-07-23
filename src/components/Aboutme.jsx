@@ -17,9 +17,9 @@ function Aboutme(){
         <h1 className='About-me'>About me</h1>
         <u className='rayita-aboutme'>________________</u>
         <p className='about-info'>
-          Soy un desarrollador Web Frontend que actualmente estudia Ing de Software en SENATI. 
+          Soy un desarrollador web principiante que actualmente estudia Ing de Software en SENATI. 
           Me caracterizo por ser una persona positiva, responsable, disciplinada y social. Cuando descubri 
-          el mundo del diseño Web en Internet, supe que ese era camino como profesional.   </p><br/>
+          el mundo del desarrollo Web en Internet, supe que ese era camino como profesional.   </p><br/>
         <ul className='About-ul'>
         <ul className='About-ul2'>
           <li>Name:</li>
@@ -30,12 +30,12 @@ function Aboutme(){
           <li>Direccion</li>
         </ul>
         <ul className='About-ul3'>
-          <li>Romario:</li>
-          <li>roma@gmail.com</li>
+          <li>Romario</li>
+          <li>romario91546@gmail.com</li>
           <li>921331079</li>
           <li>20 de abril</li>
           <li>Peruano</li>
-          <li>Arequipa</li>
+          <li>A.S.A. Arequipa</li>
         </ul>
         </ul>
         

@@ -9,6 +9,20 @@
     margin-top: 20%;
 }
 
+
+
+@media screen and (max-width:500px){
+    .main-skill{
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width:420px){
+    .main-skill{
+        margin-top: 20%;
+    }
+}
+
 /* filtro top y bottom efecto desvanecimiento */
 .filtro-skills{
     height: 110vh;
@@ -97,35 +111,6 @@
     margin-bottom: 3px;
 }
 
-.right-html{
-    text-align: right;
-    margin-right: 10%;
-}
-
-.right-css{
-    text-align: right;
-    margin-right: 50%;
-}
-
-.right-js{
-    text-align: right;
-    margin-right: 65%;
-}
-
-.right-python{
-    text-align: right;
-    margin-right: 60%;
-}
-
-.right-react{
-    text-align: right;
-    margin-right: 55%;
-}
-
-.right-node{
-    text-align: right;
-    margin-right: 70%;
-}
 .Skills {
     width: 40%;
     height: 400px;
@@ -143,9 +128,18 @@
 
 }
 
+/* Responsive iPad Air */
+@media screen and (max-width:820px){
+    .skill-foto{
+    padding-top: 10%;
+    /* background-color: blue; */
+    }   
+}
+/* Responsive Samsung s20 ultra */
 @media screen and (max-width:500px){
     .skill-foto{
-    margin: 0px 0px 0px 0px;
+    padding-top: 15%;
+    /* background-color: blue; */
     }   
 }
 
@@ -212,6 +206,37 @@ li{
     }
 }
 
+/* Modificamos el right de cada uno de las skill */
+.right-html{
+    text-align: right;
+    margin-right: 30%;
+}
+
+.right-css{
+    text-align: right;
+    margin-right: 50%;
+}
+
+.right-js{
+    text-align: right;
+    margin-right: 65%;
+}
+
+.right-python{
+    text-align: right;
+    margin-right: 70%;
+}
+
+.right-react{
+    text-align: right;
+    margin-right: 75%;
+}
+
+.right-node{
+    text-align: right;
+    margin-right: 75%;
+}
+
 .bar1, .bar2, .bar3, .bar4, .bar5, .bar6{
     background: #222121;
     display: block;
@@ -260,8 +285,9 @@ li{
     border-radius: 5px;
 }
 
+/* Aqui modificamos el % de cada uno */
 .html{
-    width: 90%;
+    width: 70%;
     animation: html 3s;
 }
 
@@ -271,7 +297,7 @@ li{
 }
 
 .python{
-    width: 40%;
+    width: 30%;
     animation: php 3s;
 }
 
@@ -281,12 +307,12 @@ li{
 }
 
 .react{
-    width: 45%;
+    width: 25%;
     animation: php 3s;
 }
 
 .node{
-    width: 30%;
+    width: 25%;
     animation: php 3s;
 }
 

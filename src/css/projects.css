@@ -12,6 +12,13 @@
     margin-top: 20%;
 }
 
+@media screen and (max-width:500px){
+    .filtro-projects{
+    /* padding-top: 5%; */
+    /* background-color: blue; */
+    }   
+}
+
 /* Filtro top y bottom de efecto desvanecimiento*/
 .filtro-projects{
     width: 100%;

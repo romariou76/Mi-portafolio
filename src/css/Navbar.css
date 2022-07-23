@@ -5,20 +5,16 @@
   height: 100vh;
   /* background-color: #01020288; */
   /* Sombreado entre contenedores */
-  /* background: linear-gradient(rgba(148, 255, 26, 0) 95%, rgb(0, 4, 14)); */
-  background: rgb(2,0,36);
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,0,0,0) 10%, rgba(0, 0, 0, 0) 100%);
-
 }
 
 .NavBar{
-  background-image: url(../images/fondo4.jpg);
+  background: linear-gradient(rgba(5, 7, 12, 0.178) , rgba(5, 7, 12, 0.616)),
+    url(../images/fondo4.jpg) no-repeat center center;
+  background-size: cover; /*cover; redimensiona la imagen para aseugrar que ocupa el máximo de pantalla posible. */
   width: 100%;
   height: 100vh;
-  background-size: cover; /*cover; redimensiona la imagen para aseugrar que ocupa el máximo de pantalla posible. */
   background-position: center;
-  position: relative;/* background-attachment: fixed; Mantener fijo el fondo */
-  z-index: 5;  /* Mandamos encima de todo la Navbar horizontal en la capa 2 */
 }
 
 *{

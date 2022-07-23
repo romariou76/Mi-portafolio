@@ -1,3 +1,4 @@
+import React from 'react';
 import "../css/project.css"
 import { AiFillGithub } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
@@ -7,10 +8,12 @@ function Project(props){
         <div class="contenedor-projects">
         <a href="#d">
              <figure>
-                 <img src="https://res.cloudinary.com/slee-dw/image/upload/v1597941457/meta-tutoriales_vbnc37.png"/>
+             <img
+                src={require(`../images/${props.imagen}.png`)} //plantillas literales
+                    alt='Foto-peepoapp'/>
                  <div class="capa">
-                    <h3>PeepoApp</h3>
-                    <p className="parrafo-capa" >Sitio Web para la venta de productos de segundo uso</p>
+                    <h3>{props.nombre}</h3>
+                    <p className="parrafo-capa" >{props.info}</p>
                     
                     <a href="#df" class="btn-capa">
                         <BiWorld style={{color: 'white', fontSize: '15px', paddingTop: '0px'}}/>
