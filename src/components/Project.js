@@ -5,29 +5,27 @@ import { BiWorld } from "react-icons/bi";
 
 function Project(props){
     return(
-        <div class="contenedor-projects">
-        <a href="#d">
+        <div className="contenedor-projects">
              <figure>
              <img
                 src={require(`../images/${props.imagen}.png`)} //plantillas literales
                     alt='Foto-peepoapp'/>
-                 <div class="capa">
+                 <div className="capa">
                     <h3>{props.nombre}</h3>
                     <p className="parrafo-capa" >{props.info}</p>
                     
-                    <a href="#df" class="btn-capa">
+                    <a href="#df" className="btn-capa">
                         <BiWorld style={{color: 'white', fontSize: '15px', paddingTop: '0px'}}/>
                         &nbsp;Website
                     </a>
                   
-                    <a href={props.url} class="btn-capa">
+                    <a href={props.url} className="btn-capa">
                          <AiFillGithub style={{color: 'white', fontSize: '15px', paddingTop: '0px'}}/>
                          &nbsp;Repository
                     </a>
                     
                  </div>
              </figure>
-         </a>
      </div>
     )
 }

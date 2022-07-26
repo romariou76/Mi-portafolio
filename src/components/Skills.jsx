@@ -13,8 +13,10 @@ function Skills(){
     <h1 className='title-skill' data-aos="fade-up" data-aos-duration="3000">My Skills</h1>
     <p className='rayita' data-aos="fade-up" data-aos-duration="3000">_______________</p>
     <div className='Skills-body' data-aos="fade">
+
         <div className='caja-skill'>
-            <div class="Skills" data-aos="fade-up"
+            
+            <div className="Skills" data-aos="fade-up"
                             data-aos-duration="3000">
                 <h1 className='body-h1'>Coding Skills</h1><u className='rayita'>________________________</u>
                     <p className='info-skill1'>Actualmente tengo estos porcentajes de conocimiento en cada uno de estos lenguajes de programación
@@ -56,35 +58,36 @@ function Skills(){
                     <p className='right-node'>25%</p>
                 </div>
                     <span className='bar6'><span className='node'></span></span>
-        </div>
-        <div className='skill-foto'
-        data-aos="fade-up"
-        data-aos-duration="3000"
-        >
-            <h1 className='body-h1'>Social Skills</h1><u className='rayita'>______________________</u>
-            <p className='info-skill1'>Quiero que conozcan como soy personalmente en cualquier ámbito de trabajo, 
-            por ello he listado los valores, actitudes y habilidades sociales las cuales considero que tengo.
-                </p>
-                <br></br>
-                <br></br>
-                <ul className='Skill-ul'>
-                  <ul className='Skill-ul2'>
-                        <li>Atento</li>
-                        <li>Responsable</li>
-                        <li>Puntual</li>
-                        <li>Disciplinado</li>
-                        <li>Comprometido</li>
-                    </ul>
-                    <ul className='Skill-ul3'>
-                        <li>Empatico</li>
-                        <li>Asertivo</li>
-                        <li>Credibilidad</li>
-                        <li>Respetuoso</li>
-                        <li>Mente abierta</li>
-                    </ul>
-                </ul>   
             </div>
-        </div>
+
+            <div className='skill-foto'
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            >
+                <h1 className='body-h1'>Social Skills</h1><u className='rayita'>______________________</u>
+                <p className='info-skill1'>Quiero que conozcan como soy personalmente en cualquier ámbito de trabajo, 
+                por ello he listado los valores, actitudes y habilidades sociales las cuales considero que tengo.
+                    </p>
+                    <br></br>
+                    <br></br>
+                    <ul className='Skill-ul'>
+                      <ul className='Skill-ul2'>
+                            <li>Atento</li>
+                            <li>Responsable</li>
+                            <li>Puntual</li>
+                            <li>Disciplinado</li>
+                            <li>Comprometido</li>
+                        </ul>
+                        <ul className='Skill-ul3'>
+                            <li>Empatico</li>
+                            <li>Asertivo</li>
+                            <li>Credibilidad</li>
+                            <li>Respetuoso</li>
+                            <li>Mente abierta</li>
+                        </ul>
+                    </ul>   
+                </div>
+            </div>
     </div>
     </div>
 

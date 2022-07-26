@@ -16,7 +16,7 @@ return(
   <div className='filtro'>
     <header>
       
-      <div class="spinner">
+      <div className="spinner">
         <span>R</span>
         <span>O</span>
         <span>M</span>
