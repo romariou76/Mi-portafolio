@@ -23,7 +23,7 @@ function Aboutme(){
         <ul className='About-ul'>
         <ul className='About-ul2'>
           <li>Name:</li>
-          <li>Email:</li>
+          {/* <li>Email:</li> */}
           <li>Phone</li>
           <li>Cumpleaños</li>
           <li>Nacionalidad</li>
@@ -31,7 +31,7 @@ function Aboutme(){
         </ul>
         <ul className='About-ul3'>
           <li>Romario</li>
-          <li>romario91546@gmail.com</li>
+          {/* <li>romario91546@gmail.com</li> */}
           <li>921331079</li>
           <li>20 de abril</li>
           <li>Peruano</li>

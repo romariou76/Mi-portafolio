@@ -16,10 +16,10 @@
     margin-top: 20%;
 }
 
-/* Aumentar la altura de la seccion about en mobil */
+/* Añadimos responsive design */
 @media screen and (max-width:500px){
     .about{
-    height: 900px;
+        height: 110vh;
     }
 }
 
@@ -35,27 +35,10 @@
     }
 }
 
-/* Añadimos responsive design */
-@media screen and (max-width:450px){
-    /* .filtro-about{
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 208, 250, 0) 15%, rgba(64, 192, 218, 0) 85%, rgba(0,0,0,1) 100%);
-    } */
-    .about{
-        height: 110vh;
-    }
-}
-
-
 /* Titulo */
 .About-me{
     font-size: 35px;
     margin-top: 0px;
-}
-
-.rayita-aboutme{
-    margin-top: 6px;
-    display: flex;
-    color: yellow;
 }
 
 .rayita-aboutme{
@@ -65,29 +48,45 @@
 }
 
 .caja {
-        /* background-color: rgb(14, 14, 15); */
-    width: 87%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-flow: wrap;
-
-    padding-top: 5%;        
+    padding-top: 5%;       
 }
-/* Ajustar el contenido al 100% en movil*/
+
+/* Añadimos responsive design */
+@media screen and (max-width:320px){
+    .caja{
+        width: 320px;
+        /* background-color: purple; */
+    }
+}
+
+/* Ajustar el contenido al 100% en iPad*/
+@media screen and (max-width:768px){
+    .caja{
+        width: 100%;
+        justify-content: center;
+        /* background-color: blue;         */
+    }
+}
+
+/* Ajustar el contenido al 100% en Movil*/
 @media screen and (max-width:500px){
     .caja{
         width: 100%;
-        padding-top: 45%;        
+        padding: 25% 0% 25%;
     }
 }
 
 .about2 {
     width: 40%;
     height: auto;
-    margin: 60px 30px 60px 5px;
+    margin: 60px 0px 60px 0px;
     box-sizing: border-box;
-    /* background-color: blueviolet; */
+    /* background-color: black; */
 }
 
 .about3 {
@@ -99,17 +98,17 @@
     /* background-color: orangered; */
 }
 /* Ajustar el margen en la seccion about2 en mobiles */
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .about3{
         /* background-color: yellow; */
-        margin: 0px 0px -30px 0px;
         padding: 0px;
+        margin: 0px 0px 0px 0px;
     }
 }
 /* Ajustar el margen en la seccion about2 en mobiles */
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .about2{
-        margin: -90px 0px 10px 0px;
+        margin: 0px 0px 10px 0px;
     }
 }
 
