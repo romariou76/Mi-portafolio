@@ -17,7 +17,7 @@ function Skills(){
             <div class="Skills" data-aos="fade-up"
                             data-aos-duration="3000">
                 <h1 className='body-h1'>Coding Skills</h1><u className='rayita'>________________________</u>
-                    <p className='info-skill1'>Actualmente tengo estos porcentajes de conocimiento de cada uno de estos lenguajes de programación
+                    <p className='info-skill1'>Actualmente tengo estos porcentajes de conocimiento en cada uno de estos lenguajes de programación
 , todos estos los aprendo mayormente en internet, pues soy un joven muy autodidacta 8).
 
                     </p>
@@ -62,7 +62,7 @@ function Skills(){
         data-aos-duration="3000"
         >
             <h1 className='body-h1'>Social Skills</h1><u className='rayita'>______________________</u>
-            <p className='info-skill1'>Siempre quise que los demás conozcan como soy personalmente en cualquier ámbito de trabajo, 
+            <p className='info-skill1'>Quiero que conozcan como soy personalmente en cualquier ámbito de trabajo, 
             por ello he listado los valores, actitudes y habilidades sociales las cuales considero que tengo.
                 </p>
                 <br></br>

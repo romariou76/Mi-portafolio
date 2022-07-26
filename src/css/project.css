@@ -1,5 +1,5 @@
 .contenedor-projects{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,26 @@
 .contenedor-projects figure{
     position:relative;
     cursor: pointer;
-    width: 350px;
+    width: 360px;
     height: 220px;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 10px;
+}
+
+/* Responsive iPad Mini */
+@media screen and (max-width:768px){
+    .contenedor-projects figure{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Responsive iPhone 12 pro samsung etc */
+@media screen and (max-width:420px){
+    .contenedor-projects figure{
+        width: 360px;
+        height: 220px;
+    }
 }
 
 .contenedor-projects figure img{
