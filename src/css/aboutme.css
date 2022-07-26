@@ -94,6 +94,13 @@
     height: 70%;
     padding: 15%;
     border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+.foto2:hover{
+    transform: scale(1.1);
 }
 
 .about3 {
@@ -152,7 +159,7 @@
     /* background-color: yellow; */
     font-size: 14px;
     margin: 10px 0px -10px 0px;
-    color: rgba(255, 255, 255, 0.822);
+    color: rgba(255, 255, 255, 0.966);
 }
 
 /* Agregando estilo a la lista desordenada */
@@ -178,7 +185,7 @@
 }
 
 li{
-    color: #FFFFFF95;
+    color: #fffffff5;
     margin-bottom: 15px;
     font-size: 14px;
 

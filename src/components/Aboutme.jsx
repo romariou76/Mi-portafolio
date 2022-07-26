@@ -2,6 +2,7 @@ import '../css/aboutme.css'
 import mono from '../images/mono.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import cv from "../downloads/curriculum.pdf"
 
 AOS.init();
 
@@ -43,8 +44,7 @@ function Aboutme(){
     
         <br/>
         {/* <a href="#a" className="boton1">Here Me</a> */}
-        <a href="./curriculum.pdf" target='_blank' className="buttonDownload">Descargar CV</a>
-        {/* <a class="buttonDownload">Download</a> */}
+        <a href={cv} target='_blank' className="buttonDownload" rel="noopener noreferrer">Descargar CV</a>
 
     </div>
   </div>
