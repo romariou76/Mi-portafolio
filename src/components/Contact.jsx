@@ -31,6 +31,16 @@ const sendEmail = (event) => {
           )
         )
    }
+
+//    var elementos = document.getElementsByTagName('input');
+
+//    const limpiar = (e)=> { 
+//      e.preventDefault();
+//      for (let i = 0; i < elementos.length; i++) {
+//        elementos[i].value='';          
+//      }
+//    }
+
     return(
 
 <div className='contact' id='contact-me'>
@@ -66,6 +76,7 @@ const sendEmail = (event) => {
 
                     <p className="block">
                      <button type="submit" id="enviar" >Enviar</button>
+                     {/* <button type="reset" onClick={limpiar} >Enviar</button> */}
                     </p>
 
                 </form>
@@ -82,7 +93,6 @@ const sendEmail = (event) => {
                 <br></br>
                 <p className='frase'>"Mi mayor error es, probablemente, fijarme mucho en el talento de la gente y no en la personalidad. Pienso que es importante que las personas tengan un buen corazón."</p>
                   {/* <img className="email-svg" src={email} alt="email"/> */}
-
                 {/* <p>romario.com</p> */}
             </div>
         </div>

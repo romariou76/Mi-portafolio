@@ -1,5 +1,5 @@
 import '../css/aboutme.css'
-import mono from '../images/mono.jpg';
+import mono from '../images/mono.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import cv from "../downloads/curriculum.pdf"
