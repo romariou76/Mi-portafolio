@@ -98,21 +98,21 @@ ul {
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #ff080883;
+    border-bottom: 1px solid #ffdcdc34;
 }
 
 .contact-form form button {
-    background: #B70E21;
+    background: #8e2bff;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
+    transition: background-color 0.2s ease-out;
 }
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #d63031;
+    background: #5707b3;
     color: #fff;
-    transition: background-color 1s ease-out;
     outline: 0;
 }
 

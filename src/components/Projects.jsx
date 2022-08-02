@@ -12,7 +12,7 @@ function Projects(props){
         <div data-aos="fade-up" data-aos-duration="3000">
           <h1 className='titulo'>Proyectos</h1>
           <p className='u'>________________</p>
-          <p className='parrafo'>Ultimos proyectos realizados</p>
+          <p className='parrafo'>Mis proyectos realizados</p>
         </div>
 
         <div className="proyectos" data-aos="fade-up" data-aos-duration="3000">
@@ -25,9 +25,11 @@ function Projects(props){
                 />
                 
                 <Project
-                nombre='Proximamente'
-                info='proximamente'
-                imagen='proximamente'
+                nombre='CityTours'
+                info='Conozca bellos y hermosos lugares turisticos del Perú.'
+                imagen='citytours'
+                web='https://citytours.netlify.app/'
+                url='https://github.com/romariou76/Sitio-Web-de-turismo.git'
                 />
 
                 <Project

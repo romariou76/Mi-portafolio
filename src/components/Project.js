@@ -14,7 +14,7 @@ function Project(props){
                     <h3>{props.nombre}</h3>
                     <p className="parrafo-capa" >{props.info}</p>
                     
-                    <a href="#df" className="btn-capa">
+                    <a href={props.web} className="btn-capa">
                         <BiWorld style={{color: 'white', fontSize: '15px', paddingTop: '0px'}}/>
                         &nbsp;Website
                     </a>
